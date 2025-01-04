@@ -1,4 +1,4 @@
-# Advanced Programming Course
+# Prepare for Advanced Programming 
 
 ## Overview
 
