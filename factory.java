@@ -2,6 +2,7 @@ import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
+import java.util.Scanner;
 
 public class factory {
 
@@ -20,6 +21,7 @@ public class factory {
           System.out.println("\nDisplaying cars grouped by brand:");
           for (String brand : carBrandMap.keySet()) {
                System.out.println("Brand: " + brand);
+
                List<Car> cars = carBrandMap.get(brand);
                for (int i = 0; i < cars.size(); i++) {
                     Car car = cars.get(i);
@@ -35,11 +37,40 @@ public class factory {
 
           factory factory = new factory();
 
-          factory.addCar("Honda", "City", 2025);
-          factory.addCar("Honda", "Civic", 2025);
-          factory.addCar("Toyota", "Corolla", 2025);
-          factory.addCar("Toyota", "Camry", 2024);
-          factory.addCar("Honda", "Accord", 2025);
+          //Add cars loop
+          System.out.println("Enter car details (brand model year) or 'exit' to stop:");
+          Scanner scanner = new Scanner(System.in);
+
+          while (true) {
+               String input = scanner.nextLine();
+               if (input.equalsIgnoreCase("exit"))
+                    break;
+
+               String[] parts = input.split(" ");
+               if (parts.length == 3) {
+
+                    try {
+                         String brand = parts[0];
+                         String model = parts[1];
+                         int year = Integer.parseInt(parts[2]);
+                         factory.addCar(brand, model, year);
+                    } catch (NumberFormatException e) {
+                         System.out.println("Invalid year format. Please try again.");
+                    }
+
+               } else {
+                    System.out.println("Invalid input format. Use: brand model year");
+               }
+          }
+          scanner.close();
+
+          /*
+           * f actory.addCar("Honda", "City", 2025);
+           * factory.addCar("Honda", "Civic", 2025);
+           * factory.addCar("Toyota", "Corolla", 2025);
+           * factory.addCar("Toyota", "Camry", 2024);
+           * factory.addCar("Honda", "Accord", 2025);
+           */
 
           factory.displayCarsGroupedByBrand();
      }
