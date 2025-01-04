@@ -37,7 +37,7 @@ public class factory {
 
           factory factory = new factory();
 
-          //Add cars loop
+          // Add cars loop
           System.out.println("Enter car details (brand model year) or 'exit' to stop:");
           Scanner scanner = new Scanner(System.in);
 
