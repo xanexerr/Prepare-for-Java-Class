@@ -22,9 +22,6 @@ public class z_hello {
      }
 }
 
-// สร้าง class Car ที่มี attribute คือ brand, model, year และ method คือ
-// start() และ stop() โดยให้ method start() และ stop() แสดงข้อความว่า "The car
-// is starting." และ "The car is stopping." ตามลำดับ
 class Car {
      private String brand;
      private String model;
