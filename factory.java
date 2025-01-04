@@ -5,21 +5,17 @@ import java.util.Map;
 
 public class factory {
 
-     // Map to store cars grouped by brand
      private Map<String, List<Car>> carBrandMap = new HashMap<>();
 
-     // Method to add a new car to the factory
      public void addCar(String brand, String model, int year) {
           Car newCar = new Car(brand, model, year);
 
-          // Grouping cars by brand
           carBrandMap.putIfAbsent(brand, new ArrayList<>());
           carBrandMap.get(brand).add(newCar);
 
           System.out.println("Added: " + brand + " " + model + " (" + year + ")");
      }
 
-     // Method to display cars grouped by brand
      public void displayCarsGroupedByBrand() {
           System.out.println("\nDisplaying cars grouped by brand:");
           for (String brand : carBrandMap.keySet()) {
