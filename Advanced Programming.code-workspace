@@ -1,9 +1,11 @@
 {
 	"folders": [
 		{
+			"name": "Advanced Programming",
 			"path": "."
 		},
 		{
+			"name": "Java",
 			"path": "../../HTC_Classroom/VC2_1/Java"
 		}
 	],
