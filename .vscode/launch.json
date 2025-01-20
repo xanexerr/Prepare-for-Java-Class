@@ -1,0 +1,602 @@
+{
+     // Use IntelliSense to learn about possible attributes.
+     // Hover to view descriptions of existing attributes.
+     // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+     "version": "0.2.0",
+     "configurations": [
+          {
+               "type": "java",
+               "name": "Current File",
+               "request": "launch",
+               "mainClass": "${file}"
+          },
+          {
+               "type": "java",
+               "name": "TESTPD",
+               "request": "launch",
+               "mainClass": "Java/Class.Java.TESTPD",
+               "projectName": "Advanced Programming_6a3dde55"
+          },
+          {
+               "type": "java",
+               "name": "BMICalculator",
+               "request": "launch",
+               "mainClass": "Java/Class.W1.BMICalculator",
+               "projectName": "Advanced Programming_6a3dde55"
+          },
+          {
+               "type": "java",
+               "name": "LetterPrinter",
+               "request": "launch",
+               "mainClass": "Java/Class.W1.LetterPrinter",
+               "projectName": "Advanced Programming_6a3dde55"
+          },
+          {
+               "type": "java",
+               "name": "ChallengeLab2",
+               "request": "launch",
+               "mainClass": "Java/Class.W2.ChallengeLab2",
+               "projectName": "Advanced Programming_6a3dde55"
+          },
+          {
+               "type": "java",
+               "name": "LAB2Q1",
+               "request": "launch",
+               "mainClass": "Java/Class.W2.LAB2Q1",
+               "projectName": "Advanced Programming_6a3dde55"
+          },
+          {
+               "type": "java",
+               "name": "LAB2Q2",
+               "request": "launch",
+               "mainClass": "Java/Class.W2.LAB2Q2",
+               "projectName": "Advanced Programming_6a3dde55"
+          },
+          {
+               "type": "java",
+               "name": "LAB2Q3",
+               "request": "launch",
+               "mainClass": "Java/Class.W2.LAB2Q3",
+               "projectName": "Advanced Programming_6a3dde55"
+          },
+          {
+               "type": "java",
+               "name": "Lecture",
+               "request": "launch",
+               "mainClass": "Java/Class.W2.Lecture",
+               "projectName": "Advanced Programming_6a3dde55"
+          },
+          {
+               "type": "java",
+               "name": "VacRegister",
+               "request": "launch",
+               "mainClass": "Java/Class.W3.VacRegister",
+               "projectName": "Advanced Programming_6a3dde55"
+          },
+          {
+               "type": "java",
+               "name": "WallPaper",
+               "request": "launch",
+               "mainClass": "Java/Class.W3.WallPaper",
+               "projectName": "Advanced Programming_6a3dde55"
+          },
+          {
+               "type": "java",
+               "name": "WallPaperUnit",
+               "request": "launch",
+               "mainClass": "Java/Class.W3.WallPaperUnit",
+               "projectName": "Advanced Programming_6a3dde55"
+          },
+          {
+               "type": "java",
+               "name": "lecture",
+               "request": "launch",
+               "mainClass": "Java/Class.W3.lecture",
+               "projectName": "Advanced Programming_6a3dde55"
+          },
+          {
+               "type": "java",
+               "name": "Java/Main",
+               "request": "launch",
+               "mainClass": "Java/Main",
+               "projectName": "Advanced Programming_6a3dde55"
+          },
+          {
+               "type": "java",
+               "name": "Java/employees",
+               "request": "launch",
+               "mainClass": "Java/employees",
+               "projectName": "Advanced Programming_6a3dde55"
+          },
+          {
+               "type": "java",
+               "name": "Java/factory",
+               "request": "launch",
+               "mainClass": "Java/factory",
+               "projectName": "Advanced Programming_6a3dde55"
+          },
+          {
+               "type": "java",
+               "name": "Java/java64018_0403_TestStudent2_1",
+               "request": "launch",
+               "mainClass": "Java/java64018_0403_TestStudent2_1",
+               "projectName": "Advanced Programming_6a3dde55"
+          },
+          {
+               "type": "java",
+               "name": "Java/java6406_0452_0403_TestStudent2",
+               "request": "launch",
+               "mainClass": "Java/java6406_0452_0403_TestStudent2",
+               "projectName": "Advanced Programming_6a3dde55"
+          },
+          {
+               "type": "java",
+               "name": "java6406_0101_hello_world",
+               "request": "launch",
+               "mainClass": "Java/javaapp_itc6406_01.java6406_0101_hello_world",
+               "projectName": "Advanced Programming_6a3dde55"
+          },
+          {
+               "type": "java",
+               "name": "java6406_0103_TestProgram1",
+               "request": "launch",
+               "mainClass": "Java/javaapp_itc6406_01.java6406_0103_TestProgram1",
+               "projectName": "Advanced Programming_6a3dde55"
+          },
+          {
+               "type": "java",
+               "name": "java6406_0104_TestVariable",
+               "request": "launch",
+               "mainClass": "Java/javaapp_itc6406_01.java6406_0104_TestVariable",
+               "projectName": "Advanced Programming_6a3dde55"
+          },
+          {
+               "type": "java",
+               "name": "java6406_0105_TestVariable2",
+               "request": "launch",
+               "mainClass": "Java/javaapp_itc6406_01.java6406_0105_TestVariable2",
+               "projectName": "Advanced Programming_6a3dde55"
+          },
+          {
+               "type": "java",
+               "name": "java6406_0106_TestVariable3",
+               "request": "launch",
+               "mainClass": "Java/javaapp_itc6406_01.java6406_0106_TestVariable3",
+               "projectName": "Advanced Programming_6a3dde55"
+          },
+          {
+               "type": "java",
+               "name": "java6406_0107_TestVariable4",
+               "request": "launch",
+               "mainClass": "Java/javaapp_itc6406_01.java6406_0107_TestVariable4",
+               "projectName": "Advanced Programming_6a3dde55"
+          },
+          {
+               "type": "java",
+               "name": "java6406_0108_TestArray1",
+               "request": "launch",
+               "mainClass": "Java/javaapp_itc6406_01.java6406_0108_TestArray1",
+               "projectName": "Advanced Programming_6a3dde55"
+          },
+          {
+               "type": "java",
+               "name": "java6406_0109_TestArray2",
+               "request": "launch",
+               "mainClass": "Java/javaapp_itc6406_01.java6406_0109_TestArray2",
+               "projectName": "Advanced Programming_6a3dde55"
+          },
+          {
+               "type": "java",
+               "name": "java6406_0110_TestArray3",
+               "request": "launch",
+               "mainClass": "Java/javaapp_itc6406_01.java6406_0110_TestArray3",
+               "projectName": "Advanced Programming_6a3dde55"
+          },
+          {
+               "type": "java",
+               "name": "java6406_0201_TestOperator1",
+               "request": "launch",
+               "mainClass": "Java/javaapp_itc6406_02.java6406_0201_TestOperator1",
+               "projectName": "Advanced Programming_6a3dde55"
+          },
+          {
+               "type": "java",
+               "name": "java6406_0202_TestOperator2",
+               "request": "launch",
+               "mainClass": "Java/javaapp_itc6406_02.java6406_0202_TestOperator2",
+               "projectName": "Advanced Programming_6a3dde55"
+          },
+          {
+               "type": "java",
+               "name": "java6406_0203_TestOperator3",
+               "request": "launch",
+               "mainClass": "Java/javaapp_itc6406_02.java6406_0203_TestOperator3",
+               "projectName": "Advanced Programming_6a3dde55"
+          },
+          {
+               "type": "java",
+               "name": "java6406_0204_TestOperator4",
+               "request": "launch",
+               "mainClass": "Java/javaapp_itc6406_02.java6406_0204_TestOperator4",
+               "projectName": "Advanced Programming_6a3dde55"
+          },
+          {
+               "type": "java",
+               "name": "java6406_0205_TestOperator5",
+               "request": "launch",
+               "mainClass": "Java/javaapp_itc6406_02.java6406_0205_TestOperator5",
+               "projectName": "Advanced Programming_6a3dde55"
+          },
+          {
+               "type": "java",
+               "name": "java6406_0301_TestIf1",
+               "request": "launch",
+               "mainClass": "Java/javaapp_itc6406_03.java6406_0301_TestIf1",
+               "projectName": "Advanced Programming_6a3dde55"
+          },
+          {
+               "type": "java",
+               "name": "java6406_0302_TestIf2",
+               "request": "launch",
+               "mainClass": "Java/javaapp_itc6406_03.java6406_0302_TestIf2",
+               "projectName": "Advanced Programming_6a3dde55"
+          },
+          {
+               "type": "java",
+               "name": "java6406_0303_Testif3",
+               "request": "launch",
+               "mainClass": "Java/javaapp_itc6406_03.java6406_0303_Testif3",
+               "projectName": "Advanced Programming_6a3dde55"
+          },
+          {
+               "type": "java",
+               "name": "java6406_0304_TestIf4",
+               "request": "launch",
+               "mainClass": "Java/javaapp_itc6406_03.java6406_0304_TestIf4",
+               "projectName": "Advanced Programming_6a3dde55"
+          },
+          {
+               "type": "java",
+               "name": "java6406_0305_TestIf5",
+               "request": "launch",
+               "mainClass": "Java/javaapp_itc6406_03.java6406_0305_TestIf5",
+               "projectName": "Advanced Programming_6a3dde55"
+          },
+          {
+               "type": "java",
+               "name": "java6406_0306_TestSwitch1",
+               "request": "launch",
+               "mainClass": "Java/javaapp_itc6406_03.java6406_0306_TestSwitch1",
+               "projectName": "Advanced Programming_6a3dde55"
+          },
+          {
+               "type": "java",
+               "name": "java6406_0307_TestSwitch2",
+               "request": "launch",
+               "mainClass": "Java/javaapp_itc6406_03.java6406_0307_TestSwitch2",
+               "projectName": "Advanced Programming_6a3dde55"
+          },
+          {
+               "type": "java",
+               "name": "java6406_0311_Testfor1",
+               "request": "launch",
+               "mainClass": "Java/javaapp_itc6406_03.java6406_0311_Testfor1",
+               "projectName": "Advanced Programming_6a3dde55"
+          },
+          {
+               "type": "java",
+               "name": "java6406_0312_TestFor2",
+               "request": "launch",
+               "mainClass": "Java/javaapp_itc6406_03.java6406_0312_TestFor2",
+               "projectName": "Advanced Programming_6a3dde55"
+          },
+          {
+               "type": "java",
+               "name": "java6406_0313_TestFor3",
+               "request": "launch",
+               "mainClass": "Java/javaapp_itc6406_03.java6406_0313_TestFor3",
+               "projectName": "Advanced Programming_6a3dde55"
+          },
+          {
+               "type": "java",
+               "name": "java6406_0314_TestFor4",
+               "request": "launch",
+               "mainClass": "Java/javaapp_itc6406_03.java6406_0314_TestFor4",
+               "projectName": "Advanced Programming_6a3dde55"
+          },
+          {
+               "type": "java",
+               "name": "java6406_0315_Testfor5",
+               "request": "launch",
+               "mainClass": "Java/javaapp_itc6406_03.java6406_0315_Testfor5",
+               "projectName": "Advanced Programming_6a3dde55"
+          },
+          {
+               "type": "java",
+               "name": "java6406_0316_Testfor6",
+               "request": "launch",
+               "mainClass": "Java/javaapp_itc6406_03.java6406_0316_Testfor6",
+               "projectName": "Advanced Programming_6a3dde55"
+          },
+          {
+               "type": "java",
+               "name": "java6406_0317_Testfor7",
+               "request": "launch",
+               "mainClass": "Java/javaapp_itc6406_03.java6406_0317_Testfor7",
+               "projectName": "Advanced Programming_6a3dde55"
+          },
+          {
+               "type": "java",
+               "name": "java6406_0321_TestDoWhile1",
+               "request": "launch",
+               "mainClass": "Java/javaapp_itc6406_03.java6406_0321_TestDoWhile1",
+               "projectName": "Advanced Programming_6a3dde55"
+          },
+          {
+               "type": "java",
+               "name": "java6406_0322_TestDoWhile2",
+               "request": "launch",
+               "mainClass": "Java/javaapp_itc6406_03.java6406_0322_TestDoWhile2",
+               "projectName": "Advanced Programming_6a3dde55"
+          },
+          {
+               "type": "java",
+               "name": "java6406_0351_0302_TestIf21",
+               "request": "launch",
+               "mainClass": "Java/javaapp_itc6406_03.java6406_0351_0302_TestIf21",
+               "projectName": "Advanced Programming_6a3dde55"
+          },
+          {
+               "type": "java",
+               "name": "java6406_0352_0303_Testif3",
+               "request": "launch",
+               "mainClass": "Java/javaapp_itc6406_03.java6406_0352_0303_Testif3",
+               "projectName": "Advanced Programming_6a3dde55"
+          },
+          {
+               "type": "java",
+               "name": "java6406_0402_TestStudent",
+               "request": "launch",
+               "mainClass": "Java/javaapp_itc6406_04.java6406_0402_TestStudent",
+               "projectName": "Advanced Programming_6a3dde55"
+          },
+          {
+               "type": "java",
+               "name": "java6406_0403_TestStudent2",
+               "request": "launch",
+               "mainClass": "Java/javaapp_itc6406_04.java6406_0403_TestStudent2",
+               "projectName": "Advanced Programming_6a3dde55"
+          },
+          {
+               "type": "java",
+               "name": "java6406_0406_TestStudentSubject",
+               "request": "launch",
+               "mainClass": "Java/javaapp_itc6406_04.java6406_0406_TestStudentSubject",
+               "projectName": "Advanced Programming_6a3dde55"
+          },
+          {
+               "type": "java",
+               "name": "java6406_0408_TestStudentSubject2",
+               "request": "launch",
+               "mainClass": "Java/javaapp_itc6406_04.java6406_0408_TestStudentSubject2",
+               "projectName": "Advanced Programming_6a3dde55"
+          },
+          {
+               "type": "java",
+               "name": "java6406_0410_ObjectExample",
+               "request": "launch",
+               "mainClass": "Java/javaapp_itc6406_04.java6406_0410_ObjectExample",
+               "projectName": "Advanced Programming_6a3dde55"
+          },
+          {
+               "type": "java",
+               "name": "java6406_0412_TestDog",
+               "request": "launch",
+               "mainClass": "Java/javaapp_itc6406_04.java6406_0412_TestDog",
+               "projectName": "Advanced Programming_6a3dde55"
+          },
+          {
+               "type": "java",
+               "name": "java6406_0452_0403_TestStudent2",
+               "request": "launch",
+               "mainClass": "Java/javaapp_itc6406_04.java6406_0452_0403_TestStudent2",
+               "projectName": "Advanced Programming_6a3dde55"
+          },
+          {
+               "type": "java",
+               "name": "java6406_0501_Method1",
+               "request": "launch",
+               "mainClass": "Java/javaapp_itc6406_05.java6406_0501_Method1",
+               "projectName": "Advanced Programming_6a3dde55"
+          },
+          {
+               "type": "java",
+               "name": "java6406_0503_TestStudentMethod",
+               "request": "launch",
+               "mainClass": "Java/javaapp_itc6406_05.java6406_0503_TestStudentMethod",
+               "projectName": "Advanced Programming_6a3dde55"
+          },
+          {
+               "type": "java",
+               "name": "java6406_0504_TestMethod2",
+               "request": "launch",
+               "mainClass": "Java/javaapp_itc6406_05.java6406_0504_TestMethod2",
+               "projectName": "Advanced Programming_6a3dde55"
+          },
+          {
+               "type": "java",
+               "name": "java6406_0505_TestMethod3",
+               "request": "launch",
+               "mainClass": "Java/javaapp_itc6406_05.java6406_0505_TestMethod3",
+               "projectName": "Advanced Programming_6a3dde55"
+          },
+          {
+               "type": "java",
+               "name": "java6406_0506_TestMethod4",
+               "request": "launch",
+               "mainClass": "Java/javaapp_itc6406_05.java6406_0506_TestMethod4",
+               "projectName": "Advanced Programming_6a3dde55"
+          },
+          {
+               "type": "java",
+               "name": "java6406_0507_TestMethod5",
+               "request": "launch",
+               "mainClass": "Java/javaapp_itc6406_05.java6406_0507_TestMethod5",
+               "projectName": "Advanced Programming_6a3dde55"
+          },
+          {
+               "type": "java",
+               "name": "java6406_0509_creditCard",
+               "request": "launch",
+               "mainClass": "Java/javaapp_itc6406_05.java6406_0509_creditCard",
+               "projectName": "Advanced Programming_6a3dde55"
+          },
+          {
+               "type": "java",
+               "name": "java6406_0511_CalTransport",
+               "request": "launch",
+               "mainClass": "Java/javaapp_itc6406_05.java6406_0511_CalTransport",
+               "projectName": "Advanced Programming_6a3dde55"
+          },
+          {
+               "type": "java",
+               "name": "java6406_0514_TestShipping",
+               "request": "launch",
+               "mainClass": "Java/javaapp_itc6406_05.java6406_0514_TestShipping",
+               "projectName": "Advanced Programming_6a3dde55"
+          },
+          {
+               "type": "java",
+               "name": "java6406_0515_TestMethod",
+               "request": "launch",
+               "mainClass": "Java/javaapp_itc6406_05.java6406_0515_TestMethod",
+               "projectName": "Advanced Programming_6a3dde55"
+          },
+          {
+               "type": "java",
+               "name": "java6406_0518_testSaleman",
+               "request": "launch",
+               "mainClass": "Java/javaapp_itc6406_05.java6406_0518_testSaleman",
+               "projectName": "Advanced Programming_6a3dde55"
+          },
+          {
+               "type": "java",
+               "name": "java6406_0519_testSaleman2",
+               "request": "launch",
+               "mainClass": "Java/javaapp_itc6406_05.java6406_0519_testSaleman2",
+               "projectName": "Advanced Programming_6a3dde55"
+          },
+          {
+               "type": "java",
+               "name": "java6406_0521_TestSaleman3",
+               "request": "launch",
+               "mainClass": "Java/javaapp_itc6406_05.java6406_0521_TestSaleman3",
+               "projectName": "Advanced Programming_6a3dde55"
+          },
+          {
+               "type": "java",
+               "name": "java6406_0532_testConstructor",
+               "request": "launch",
+               "mainClass": "Java/javaapp_itc6406_05.java6406_0532_testConstructor",
+               "projectName": "Advanced Programming_6a3dde55"
+          },
+          {
+               "type": "java",
+               "name": "java6406_0534_TestConstructor",
+               "request": "launch",
+               "mainClass": "Java/javaapp_itc6406_05.java6406_0534_TestConstructor",
+               "projectName": "Advanced Programming_6a3dde55"
+          },
+          {
+               "type": "java",
+               "name": "java6406_0536_TestConstructor2",
+               "request": "launch",
+               "mainClass": "Java/javaapp_itc6406_05.java6406_0536_TestConstructor2",
+               "projectName": "Advanced Programming_6a3dde55"
+          },
+          {
+               "type": "java",
+               "name": "java6406_0538_TestCarConstructor",
+               "request": "launch",
+               "mainClass": "Java/javaapp_itc6406_05.java6406_0538_TestCarConstructor",
+               "projectName": "Advanced Programming_6a3dde55"
+          },
+          {
+               "type": "java",
+               "name": "java6406_0902_0503_TestStudentMethod1",
+               "request": "launch",
+               "mainClass": "Java/javaapp_itc6406_05.java6406_0902_0503_TestStudentMethod1",
+               "projectName": "Advanced Programming_6a3dde55"
+          },
+          {
+               "type": "java",
+               "name": "Java/origin",
+               "request": "launch",
+               "mainClass": "Java/origin",
+               "projectName": "Advanced Programming_6a3dde55"
+          },
+          {
+               "type": "java",
+               "name": "Java/student",
+               "request": "launch",
+               "mainClass": "Java/student",
+               "projectName": "Advanced Programming_6a3dde55"
+          },
+          {
+               "type": "java",
+               "name": "Java/test",
+               "request": "launch",
+               "mainClass": "Java/test",
+               "projectName": "Advanced Programming_6a3dde55"
+          },
+          {
+               "type": "java",
+               "name": "Credit",
+               "request": "launch",
+               "mainClass": "Java/test.Credit",
+               "projectName": "Advanced Programming_6a3dde55"
+          },
+          {
+               "type": "java",
+               "name": "FINALTEST_2",
+               "request": "launch",
+               "mainClass": "Java/test.FINALTEST_2",
+               "projectName": "Advanced Programming_6a3dde55"
+          },
+          {
+               "type": "java",
+               "name": "FinalTEST3",
+               "request": "launch",
+               "mainClass": "Java/test.FinalTEST3",
+               "projectName": "Advanced Programming_6a3dde55"
+          },
+          {
+               "type": "java",
+               "name": "TESTD",
+               "request": "launch",
+               "mainClass": "Java/test.TESTD",
+               "projectName": "Advanced Programming_6a3dde55"
+          },
+          {
+               "type": "java",
+               "name": "TESTPD(1)",
+               "request": "launch",
+               "mainClass": "Java/test.TESTPD",
+               "projectName": "Advanced Programming_6a3dde55"
+          },
+          {
+               "type": "java",
+               "name": "javatest",
+               "request": "launch",
+               "mainClass": "Java/test.javatest",
+               "projectName": "Advanced Programming_6a3dde55"
+          },
+          {
+               "type": "java",
+               "name": "test2",
+               "request": "launch",
+               "mainClass": "Java/test.test2",
+               "projectName": "Advanced Programming_6a3dde55"
+          }
+     ]
+}
